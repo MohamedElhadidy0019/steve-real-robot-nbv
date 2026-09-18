@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+  Real robot URDF for MMO-700
+  This is a wrapper that includes the main robot description with use_gazebo=false
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mmo_700">
+
+    <!-- Include the main robot URDF from simulation package -->
+    <xacro:include filename="$(find steve_simulation)/robots/mmo_700/mmo_700.urdf.xacro"/>
+
+    <!-- Set use_gazebo to false for real robot -->
+    <xacro:arg name="use_gazebo" default="false"/>
+
+    <!-- Arm configuration -->
+    <xacro:arg name="arm_type" default="ur5e"/>
+
+    <!-- Camera configuration -->
+    <xacro:arg name="include_wrist_camera" default="true"/>
+    <xacro:arg name="include_depth_camera" default="false"/>
+    <xacro:arg name="include_pan_tilt" default="true"/>
+
+</robot>

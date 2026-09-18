@@ -1,0 +1,515 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /RobotModel1
+        - /RobotModel1/Description Topic1
+        - /TF1
+        - /Marker2
+        - /Marker3
+      Splitter Ratio: 0.5
+    Tree Height: 355
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 0.5
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 1
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cabinet_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        dummy_end_effector:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        lidar_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        lidar_2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_caster_back_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_caster_back_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_caster_front_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_caster_front_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_wheel_back_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_wheel_back_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_wheel_front_left_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        mpo_700_wheel_front_right_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_camera_color_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_camera_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        pan_tilt_pan_bracket_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_pan_motor_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_pan_motor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_tilt_bracket_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_tilt_motor_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_tilt_motor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        pan_tilt_tower_base:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5ebase:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ur5ebase_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ur5ebase_link_inertia:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5eflange:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ur5eforearm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5eft_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ur5eshoulder_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5etool0:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ur5eupper_arm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5ewrist_1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5ewrist_2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ur5ewrist_3_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wrist_camera_color_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        wrist_camera_color_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        wrist_camera_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        wrist_camera_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        wrist_camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wrist_d405_mount:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Mass Properties:
+        Inertia: false
+        Mass: false
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        base_footprint:
+          Value: true
+        base_link:
+          Value: true
+        cabinet_link:
+          Value: true
+        d415_calib_color_frame:
+          Value: true
+        d415_calib_color_optical_frame:
+          Value: true
+        d415_calib_color_optical_frame_handeye:
+          Value: true
+        d415_calib_depth_frame:
+          Value: true
+        d415_calib_depth_optical_frame:
+          Value: true
+        d415_calib_link:
+          Value: true
+        dummy_end_effector:
+          Value: true
+        lidar_1_link:
+          Value: true
+        lidar_2_link:
+          Value: true
+        mpo_700_caster_back_left_link:
+          Value: true
+        mpo_700_caster_back_right_link:
+          Value: true
+        mpo_700_caster_front_left_link:
+          Value: true
+        mpo_700_caster_front_right_link:
+          Value: true
+        mpo_700_wheel_back_left_link:
+          Value: true
+        mpo_700_wheel_back_right_link:
+          Value: true
+        mpo_700_wheel_front_left_link:
+          Value: true
+        mpo_700_wheel_front_right_link:
+          Value: true
+        odom:
+          Value: true
+        pan_tilt_camera_color_optical_frame:
+          Value: true
+        pan_tilt_camera_color_optical_frame_corrected:
+          Value: true
+        pan_tilt_camera_depth_optical_frame:
+          Value: true
+        pan_tilt_camera_depth_optical_frame_corrected:
+          Value: true
+        pan_tilt_camera_link:
+          Value: true
+        pan_tilt_pan_bracket_link:
+          Value: true
+        pan_tilt_pan_motor_base_link:
+          Value: true
+        pan_tilt_pan_motor_link:
+          Value: true
+        pan_tilt_tilt_bracket_link:
+          Value: true
+        pan_tilt_tilt_motor_base_link:
+          Value: true
+        pan_tilt_tilt_motor_link:
+          Value: true
+        pan_tilt_tower_base:
+          Value: true
+        ur5ebase:
+          Value: true
+        ur5ebase_link:
+          Value: true
+        ur5ebase_link_inertia:
+          Value: true
+        ur5eflange:
+          Value: true
+        ur5eforearm_link:
+          Value: true
+        ur5eft_frame:
+          Value: true
+        ur5eshoulder_link:
+          Value: true
+        ur5etool0:
+          Value: true
+        ur5eupper_arm_link:
+          Value: true
+        ur5ewrist_1_link:
+          Value: true
+        ur5ewrist_2_link:
+          Value: true
+        ur5ewrist_3_link:
+          Value: true
+        wrist_camera_color_frame:
+          Value: true
+        wrist_camera_color_optical_frame:
+          Value: true
+        wrist_camera_depth_frame:
+          Value: true
+        wrist_camera_depth_optical_frame:
+          Value: true
+        wrist_camera_link:
+          Value: true
+        wrist_d405_mount:
+          Value: true
+      Marker Scale: 0.30000001192092896
+      Name: TF
+      Show Arrows: false
+      Show Axes: true
+      Show Names: true
+      Tree:
+        odom:
+          base_link:
+            base_footprint:
+              {}
+            cabinet_link:
+              ur5ebase_link:
+                ur5ebase:
+                  {}
+                ur5ebase_link_inertia:
+                  ur5eshoulder_link:
+                    ur5eupper_arm_link:
+                      ur5eforearm_link:
+                        ur5ewrist_1_link:
+                          ur5ewrist_2_link:
+                            ur5ewrist_3_link:
+                              ur5eflange:
+                                ur5etool0:
+                                  d415_calib_color_optical_frame_handeye:
+                                    {}
+                                  dummy_end_effector:
+                                    wrist_d405_mount:
+                                      wrist_camera_link:
+                                        wrist_camera_color_frame:
+                                          wrist_camera_color_optical_frame:
+                                            {}
+                                        wrist_camera_depth_frame:
+                                          wrist_camera_depth_optical_frame:
+                                            {}
+                              ur5eft_frame:
+                                {}
+            lidar_1_link:
+              {}
+            lidar_2_link:
+              {}
+            mpo_700_caster_back_left_link:
+              mpo_700_wheel_back_left_link:
+                {}
+            mpo_700_caster_back_right_link:
+              mpo_700_wheel_back_right_link:
+                {}
+            mpo_700_caster_front_left_link:
+              mpo_700_wheel_front_left_link:
+                {}
+            mpo_700_caster_front_right_link:
+              mpo_700_wheel_front_right_link:
+                {}
+            pan_tilt_tower_base:
+              pan_tilt_tilt_motor_base_link:
+                {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        object_estimate: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /object_pose_marker
+      Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        curobo_world: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /floor_obstacle_marker
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: false
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /object_obstacle_marker_array
+      Value: false
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        curobo_world: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /floor_obstacle_marker
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: ur5ebase_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 0.8080940246582031
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0.004884049296379089
+        Y: 0.0006319363601505756
+        Z: 0.15621112287044525
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.32500025629997253
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 6.238202095031738
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 900
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000001000000000000019b0000032efc0200000002fb000000100044006900730070006c006100790073010000003b000001ec000000c700fffffffb0000000a00560069006500770073010000022d0000013c000000a000ffffff000003d70000032e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1400
+  X: 66
+  Y: 60

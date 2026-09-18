@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!--
+    Mounting cabinet that sits on the MPO-700 base and supports the UR arm.
+    Dimensions are approximate from the physical robot.
+  -->
+  <xacro:macro name="cabinet" params="name parent *origin">
+
+    <link name="${name}_link">
+      <visual>
+        <geometry>
+          <box size="0.30 0.30 0.40"/>
+        </geometry>
+        <origin xyz="0 0 0.20" rpy="0 0 0"/>
+        <material name="cabinet_grey">
+          <color rgba="0.4 0.4 0.4 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="0.30 0.30 0.40"/>
+        </geometry>
+        <origin xyz="0 0 0.20" rpy="0 0 0"/>
+      </collision>
+      <inertial>
+        <mass value="10.0"/>
+        <origin xyz="0 0 0.20" rpy="0 0 0"/>
+        <inertia ixx="0.2" ixy="0" ixz="0" iyy="0.2" iyz="0" izz="0.1"/>
+      </inertial>
+    </link>
+
+    <joint name="${name}_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${name}_link"/>
+      <xacro:insert_block name="origin"/>
+    </joint>
+
+  </xacro:macro>
+</robot>

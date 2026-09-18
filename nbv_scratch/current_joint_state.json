@@ -1,0 +1,19 @@
+{
+  "joint_names": [
+    "shoulder_pan_joint",
+    "shoulder_lift_joint",
+    "elbow_joint",
+    "wrist_1_joint",
+    "wrist_2_joint",
+    "wrist_3_joint"
+  ],
+  "positions": [
+    -4.011875454579489,
+    -1.1451015633395691,
+    1.8379953543292444,
+    -1.0550937217525025,
+    0.8229856491088867,
+    0.00214100768789649
+  ],
+  "prefix": "ur5e"
+}

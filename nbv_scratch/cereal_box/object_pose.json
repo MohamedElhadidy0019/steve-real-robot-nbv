@@ -1,0 +1,26 @@
+{
+  "frame_id": "ur5ebase_link",
+  "t_arm_base": [
+    0.1381129568018327,
+    0.2117342066603238,
+    0.06429935632259293
+  ],
+  "q_arm_base_xyzw": [
+    0.9755382730475934,
+    -0.21792720818499825,
+    0.028504153503043046,
+    0.0045081021601758265
+  ],
+  "dims_m": [
+    0.03,
+    0.09,
+    0.12
+  ],
+  "mesh_file": "/home/ws/nbv_scratch/cereal_box/mesh/textured_simple.obj",
+  "query": "carton box",
+  "n_confirm_frames": 3,
+  "n_tries": 3,
+  "position_spread_m": 0.0006313765750203938,
+  "rotation_spread_deg": 0.7348441155068978,
+  "timestamp": "2026-09-16T19:46:07.251579+00:00"
+}

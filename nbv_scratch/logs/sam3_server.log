@@ -1,0 +1,19 @@
+/home/ws/sam3_server.py:40: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2579311]
+INFO:     Waiting for application startup.
+Loading SAM3 model...
+Loading weights:   0%|          | 0/1468 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 932/1468 [00:00<00:00, 9315.21it/s]Loading weights: 100%|██████████| 1468/1468 [00:00<00:00, 9014.32it/s]
+[transformers] `memory_attention_rope_theta` is deprecated and will be removed in v5.0. Use `rope_parameters['rope_theta']` instead.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8420 (Press CTRL+C to quit)
+SAM3 model loaded on cuda, server ready.
+INFO:     127.0.0.1:45156 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45166 - "POST /segment HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45626 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54420 - "GET /health HTTP/1.1" 200 OK

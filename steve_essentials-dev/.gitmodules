@@ -1,0 +1,36 @@
+[submodule "joystick_drivers"]
+	path = joystick_drivers
+	url = git@github.com:ItsShriks/joystick_drivers.git
+	branch = dev
+[submodule "neo_kinematics_omnidrive2"]
+	path = neo_kinematics_omnidrive2
+	url = git@github.com:ItsShriks/neo_kinematics_omnidrive2.git
+	branch = dev
+[submodule "neo_common2"]
+	path = neo_common2
+	url = git@github.com:ItsShriks/neo_common2.git
+	branch = dev
+[submodule "neo_msgs2"]
+	path = neo_msgs2
+	url = git@github.com:ItsShriks/neo_msgs2.git
+	branch = dev
+[submodule "neo_relayboard_v2-2"]
+	path = neo_relayboard_v2-2
+	url = git@github.com:ItsShriks/neo_relayboard_v2-2.git
+	branch = dev
+[submodule "neo_teleop2"]
+	path = neo_teleop2
+	url = git@github.com:ItsShriks/neo_teleop2.git
+	branch = dev
+[submodule "neo_sick_s300-2"]
+	path = neo_sick_s300-2
+	url = git@github.com:ItsShriks/neo_sick_s300-2.git
+	branch = dev
+[submodule "neo_srvs2"]
+	path = neo_srvs2
+	url = git@github.com:ItsShriks/neo_srvs2.git
+	branch = dev
+[submodule "realsense-ros"]
+	path = realsense-ros
+	url = git@github.com:ItsShriks/realsense-ros.git
+	branch = dev

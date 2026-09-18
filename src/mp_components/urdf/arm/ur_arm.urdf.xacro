@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!--
+    Attaches a UR arm to cabinet_link using ur_description's macro.
+    tf_prefix uses arm_type (e.g. "ur5") so joint names become ur5shoulder_pan_joint etc.,
+    matching ur_controllers.yaml which uses $(var tf_prefix) = arm_type.
+  -->
+
+  <!-- These args may be passed by the parent xacro; declare with defaults so this file
+       can also be processed standalone. -->
+  <xacro:arg name="robot_ip"          default="192.168.1.102"/>
+  <xacro:arg name="use_mock_hardware" default="false"/>
+  <xacro:arg name="mock_sensor_commands" default="false"/>
+
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+
+  <!-- initial_positions below is a compact "ready" pose: upper arm tilted back, elbow
+       folded, wrist pointing the tool forward at roughly cabinet-top height. Clear of
+       the cabinet and of the wrist singularity. Tune per the real workcell / shelf. -->
+  <xacro:ur_robot
+    name="$(arg arm_type)"
+    tf_prefix="$(arg arm_type)"
+    ur_type="$(arg arm_type)"
+    parent="cabinet_link"
+    joint_limits_parameters_file="$(find ur_description)/config/$(arg arm_type)/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/$(arg arm_type)/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/$(arg arm_type)/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/$(arg arm_type)/visual_parameters.yaml"
+    safety_limits="true"
+    safety_pos_margin="0.15"
+    safety_k_position="20"
+    use_fake_hardware="$(arg use_mock_hardware)"
+    fake_sensor_commands="$(arg mock_sensor_commands)"
+    sim_gazebo="false"
+    headless_mode="false"
+    robot_ip="$(arg robot_ip)"
+    initial_positions="${dict(shoulder_pan_joint=0.0,shoulder_lift_joint=-2.094,elbow_joint=2.094,wrist_1_joint=-1.571,wrist_2_joint=-1.571,wrist_3_joint=0.0)}"
+    >
+    <!-- 2026-09-11: physical arm was detached and reattached rotated about
+         90deg clockwise (viewed from above) relative to this mount's
+         original orientation, corrected here so the mock/visualization
+         matches the real robot. A yaw of negative 90deg is
+         clockwise-from-above in ROS's right-hand convention (positive yaw
+         is counter-clockwise from above). -->
+    <origin xyz="0 0 ${arm_height}" rpy="0 0 -1.5707963267948966"/>
+  </xacro:ur_robot>
+
+</robot>

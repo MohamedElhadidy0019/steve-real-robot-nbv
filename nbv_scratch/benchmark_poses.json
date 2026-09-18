@@ -1,0 +1,59 @@
+[
+  {
+    "name": "hardest",
+    "joint_names": [
+      "shoulder_pan_joint",
+      "shoulder_lift_joint",
+      "elbow_joint",
+      "wrist_1_joint",
+      "wrist_2_joint",
+      "wrist_3_joint"
+    ],
+    "positions": [
+      -4.011915747319357,
+      -1.1450729829123993,
+      1.837977711354391,
+      -1.0550486606410523,
+      0.8229795694351196,
+      0.002133353613317013
+    ]
+  },
+  {
+    "name": "second_hardest",
+    "joint_names": [
+      "shoulder_pan_joint",
+      "shoulder_lift_joint",
+      "elbow_joint",
+      "wrist_1_joint",
+      "wrist_2_joint",
+      "wrist_3_joint"
+    ],
+    "positions": [
+      -2.652803529912262e-05,
+      -0.7853991550258179,
+      1.5708196798907679,
+      -0.7854162019542237,
+      -7.94569598596695e-05,
+      -2.686177388966371e-06
+    ]
+  },
+  {
+    "name": "zero_easiest",
+    "joint_names": [
+      "shoulder_pan_joint",
+      "shoulder_lift_joint",
+      "elbow_joint",
+      "wrist_1_joint",
+      "wrist_2_joint",
+      "wrist_3_joint"
+    ],
+    "positions": [
+      5.3020954510429874e-05,
+      -1.5707630676082154,
+      -1.9292951037641615e-05,
+      -1.5708309612669886,
+      -2.7004872457325746e-05,
+      3.814697265625e-06
+    ]
+  }
+]

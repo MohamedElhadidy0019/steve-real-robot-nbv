@@ -1,0 +1,25 @@
+{
+  "log": [
+    {
+      "view": 0,
+      "candidate": 1,
+      "new_points": 120,
+      "coverage_after": 0.6,
+      "planned": true,
+      "n_waypoints": 80,
+      "duration_s": 1.58
+    },
+    {
+      "view": 1,
+      "candidate": 60,
+      "new_points": 80,
+      "coverage_after": 1.0,
+      "planned": true,
+      "n_waypoints": 76,
+      "duration_s": 1.5
+    }
+  ],
+  "final_coverage": 1.0,
+  "n_points": 200,
+  "bottom_face_excluded": 5
+}

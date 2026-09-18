@@ -1,0 +1,19 @@
+/build/
+/install/
+/log/
+
+# Third-party / separate repos - each already has its own git history and
+# remote (FoundationPose is a large 787MB verified install, Parallel_Robotics_Lab
+# is already pushed to its own GitHub repo) - don't vendor either into this one.
+/FoundationPose/
+/Parallel_Robotics_Lab/
+
+# Stray installer, not project content
+/claude-desktop_*.deb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Historical one-off diagnostic output
+/diag_out/
